@@ -1,0 +1,59 @@
+
+body {
+    background-color: rgb(37, 23, 238);
+    color: black;
+}
+body.dark {
+    background-color: black;
+    
+}
+
+h1 {
+    position:relative;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+}
+#div_yuyu {
+    position: relative;
+    left: 0px;
+    width: 99px;
+    height: 153px;
+    
+}
+#div_samuraix {
+    position: relative;
+    left: 110px;
+    top: -134px;
+    width: 99px;
+    height: 153px;
+
+}
+#checkbox {
+    position: relative;
+    font-family: inherit;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    left: 146vh;
+    top: -20px;/*ALTURA BOTAO*/
+}
+.checkbox {
+    display: inline-block;
+    margin: 1em;
+    padding: 0.5em 1em;
+    text-decoration: none;background-color: #f60;
+    color: #f60;
+    border: 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0, 0.5);
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 0px 1px #930;
+
+    transition: box-shadow 0.3 ease, transform 0.3 ease;
+}
+.checkbox:active {
+    box-shadow: 0 0 0 0 #930, inset 3px 3px 3px #930;
+    transform: translate(3px, 3px);
+}

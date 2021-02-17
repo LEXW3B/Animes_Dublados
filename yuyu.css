@@ -1,0 +1,43 @@
+body {
+    background-color: #000;
+    color: white;
+}
+div#_ep{
+    position: relative;
+    text-align: center;
+    width: 263px;
+    height: auto;
+    left:0px;
+    border: 2px solid rgb(252, 248, 248);
+    background-color: rgb(7, 7, 7);
+    top: -100px;
+}
+#div1 {
+    position: relative;
+    right: -350px;
+    top: -98px;
+    width: 60%;
+    height: 150px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 15px;
+}
+#div2 {
+    position: relative;
+    left: 0px;
+    width: 30%;
+    height: 80px;
+    
+}
+#div3 {
+    position: relative;
+    font-size: 30px;
+    width: 55px;
+    height: 20px;
+    left: 600px;
+    top: -360px;
+    color: #000;
+}
